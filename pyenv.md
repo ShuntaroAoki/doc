@@ -1,5 +1,21 @@
 # pyenv
 
+## インストール
+
+```shellsession
+$  git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+```
+
+設定:
+
+```shell
+export PYENV_ROOT=$HOME/.pyenv
+export PATH=$PYENV_ROOT/bin:$PATH
+eval "$(pyenv init -)"
+```
+
+## コマンド
+
 - Python のインストール
     - `$ pyenv install <python>`
 - Python と環境のアンインストール
